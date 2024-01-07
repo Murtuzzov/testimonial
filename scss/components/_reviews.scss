@@ -1,0 +1,36 @@
+.reviews {
+  width: 1280px;
+}
+
+.reviews__title {
+  text-align: center;
+  margin-bottom: 42px;
+}
+
+.review-card {
+  @include reviewCard(395px, 330px, #f3f3f3, 42px);
+}
+
+.user-rating__company {
+  @include ratingCompany(17px, normal, 400, 27px);
+}
+
+.user-rating__name {
+  @include ratingName(20px, normal, 600, 30px);
+}
+
+.user-rating__avatar {
+  @extend %ratingAvatar;
+}
+
+.user-rating {
+  @extend %userRating;
+}
+
+.review-card__text {
+  @extend %cardText;
+}
+
+.reviews__list {
+  @include reviewsList(none, flex, wrap, 24px);
+}

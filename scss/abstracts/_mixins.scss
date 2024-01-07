@@ -1,0 +1,27 @@
+@mixin reviewCard($width, $height, $backgrouncolor, $padding) {
+  width: $width;
+  height: $height;
+  background-color: $backgrouncolor;
+  padding: $padding;
+}
+
+@mixin ratingCompany($font-size, $font-style, $font-weight, $line-height) {
+  font-size: $font-size;
+  font-style: $font-style;
+  font-weight: $font-weight;
+  line-height: $line-height;
+}
+
+@mixin ratingName($font-size, $font-style, $font-weight, $line-height) {
+  font-size: $font-size;
+  font-style: $font-style;
+  font-weight: $font-weight;
+  line-height: $line-height;
+}
+
+@mixin reviewsList($list-style, $display, $flex-wrap, $gap) {
+  list-style: $list-style;
+  display: $display;
+  flex-wrap: $flex-wrap;
+  gap: $gap;
+}
